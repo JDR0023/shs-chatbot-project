@@ -1,5 +1,5 @@
-# Chat bot with streamlit UI/front end
-# To run, type in terminal: streamlit run app.py
+# Chat bot with streamlit UI/front end 
+# To run, type in terminal: streamlit run app.py (run this instead if you want to use streamlit for front end. Run the skeletal framework if you want to use react/html-css-java/etc. as another front end)
 # Don't forget to pip install streamlit and google-generativeai first! (pip install streamlit google-generativeai)
 
 import streamlit as st

@@ -1,4 +1,4 @@
-# Chat bot skeleton framework
+# Chat bot skeleton framework (run this if you just want the skeletal framework, no front end yet)
 # To run, type in terminal: python main.py
 # Don't forget to pip install google-generativeai first! (pip install google-generativeai)
 
