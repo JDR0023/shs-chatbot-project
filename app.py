@@ -1,3 +1,7 @@
+# Chat bot with streamlit UI/front end
+# To run, type in terminal: streamlit run app.py
+# Don't forget to pip install streamlit and google-generativeai first! (pip install streamlit google-generativeai)
+
 import streamlit as st
 import google.generativeai as genai
 
@@ -5,8 +9,8 @@ import google.generativeai as genai
 st.set_page_config(page_title="SHS Chatbot", page_icon="🏫")
 st.title("🏫 SHS Info Assistant")
 
-# 1. Setup API (In a real project, use st.secrets)
-genai.configure(api_key="AIzaSyDG8BixuNuv6LA35ebVNLoJGoMCuF0xCxE")
+# 1. Setup API 
+genai.configure(api_key="YOUR_API_KEY_HERE")
 
 # 2. Define the Brain (System Instruction)
 school_info = """
